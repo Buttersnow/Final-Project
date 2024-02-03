@@ -1,0 +1,162 @@
+
+
+body {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+* {
+    
+    background-color: rgb(238, 225, 199); 
+    margin: 3;
+    margin-top: 2%;
+    padding: 2;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1em;
+    
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+/* header name */
+.name {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+    padding-top: 5%;
+    font-size: 3em;
+
+}
+
+#nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header nav ul li a {
+    display: flex;
+    padding: 15px;
+	margin: 2px;	
+	background-color:#d2e3bf;
+    border-color: #156d6d;
+	border-radius: 5px;
+    border-style: solid;
+    border-color: #090909;
+    color: rgb(8, 7, 7);
+
+}
+header nav ul li a:hover {
+    background-color: rgb(2, 175, 16);
+}
+/*Social Media connect icons*/
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50px;
+    
+  }
+  
+  .fa:hover {
+      opacity: 0.8;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+
+#btn {
+    padding: 15px;
+	margin-bottom: 2px;	
+	background-color:#d2e3bf;
+    border-color: #156d6d;
+	border-radius: 5px;
+    border-style: solid;
+    border-color: #090909;
+    color: rgb(8, 7, 7);
+}
+#btn:hover {
+background-color: rgb(8, 210, 8);
+}
+
+
+  /*headings*/
+  .skill, .project, .message, .experience, .about{
+    border: 2px dotted #28426f;
+    border-radius: 25px;
+    padding: 15px;
+  }
+#messageForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    text-shadow: #55ACEE;
+  }
+  /*bubble */
+  .bubbles{
+    position:absolute;
+    width:100%;
+    height: 100%;
+    z-index:0;
+    overflow:hidden;
+    top:0;
+    left:0;
+  }
+  .bubble{
+    position: absolute;
+    bottom:-100px;
+    width:50px;
+    height: 50px;
+    background:#65bec8;
+    border-radius:50%;
+    opacity:0.5;
+    animation: rise 10s infinite ease-in;
+  }
+  
+  @keyframes rise{
+    0%{
+      bottom:-100px;
+      transform:translateX(0);
+    }
+    50%{
+      transform:translate(100px);
+    }
+    100%{
+      bottom:1080px;
+      transform:translateX(-200px);
+    }
+  }

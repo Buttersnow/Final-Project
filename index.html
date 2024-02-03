@@ -1,1 +1,94 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="img"><img src="profile.jpg" alt="profile picture"></div>
+    <div class="bubble"></div>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Outfit:wght@400;700&family=Varela+Round&family=Viga&family=Young+Serif&display=swap');
+      </style>
+</head>
+<body>
+    <header>
+        <h1 class="name">Tilla Khan</h1>
+        <nav>
+            <ul id="nav">
+               <!--<li><a href="#">Tilla Khan</a></li>--> 
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#leave-message">Leave a Message</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2 class="about">About</h2>
+        <p>
+            Hello, I'm Tilla, and I thrive in the world of public management. 
+            By profession, I navigate the complexities of public administration with 
+            a passion for making a positive impact. Beyond the professional realm, 
+            I find joy in the rhythmic strokes of swimming and the strategic movements 
+            of badminton. Tech enthusiast at heart, I've delved into the realms of HTML,
+             JavaScript, and CSS, weaving a foundation for my love of application development. 
+             Eager to learn and innovate, I constantly seek new challenges to broaden my horizons 
+             in the ever-evolving landscape of technology. 
+        </p>
+    </section>
+    <section id="experience">
+        <h2 class="experience">Experience</h2>
+        <ul>
+            <li>In my role with the local government, I gained valuable experience coordinating and overseeing the successful implementation of various initiatives. This involved collaborating with diverse stakeholders, navigating regulatory processes, and ensuring 
+                effective communication to achieve the desired outcomes within the community.</li>
+            <li>In my experience with refugee resettlement, I played a key role in facilitating the integration of displaced individuals into their new communities. This involved coordinating essential services, advocating for resources, and fostering a 
+                supportive environment to empower refugees on their journey toward self-sufficiency.</li>
+        </ul>
+    </section>
+    
+    <section id="skills">
+        <h2 class="skill">Skills</h2>
+        <div id="sklilsList"></div>
+    </section>
+    
+    <section id="projects">
+        <h2 class="project">Projects</h2>
+        <ul id="repoList">
+        </ul>
+    </section>
+    
+    <section id="leave-message">
+        <h2 class="message">Leave a Message</h2>
+        <form id="messageForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+      
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" required>
+      
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+      
+            <button id="btn" type="submit">Submit</button>
+          </form>
+          <div id="messages">
+            <h2>Messages</h2>
+            <ul id="messageList"></ul>
+          </div>
+    </section>
+    <!-- Social Media Content -->
+    <div class="social-media">
+        <a href="https://www.facebook.com/tilla.khan.9?mibextid=ZbWKwL" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/whiteking5/" target="_blank" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        
+    </div>
+    <footer class="footer">
+        <span id="footerLine">&copy Tilla Khan</span>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
